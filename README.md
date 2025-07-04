@@ -1,81 +1,36 @@
-# ?? Global News Perspective App
-
-\# 🌍 Global News Perspective App
-
-
+Perspective_Lens
 
 An interactive web app that lets users explore how the \*\*same news topic is perceived differently around the world\*\*. Designed to encourage critical thinking, media literacy, and a broader understanding of global narratives.
 
-
-
----
-
-
-
-\## 📌 Problem Statement
-
-
+📌 Problem Statement
 
 People often consume news from a single source or region, leading to biased or narrow viewpoints. There's a need for a tool that:
+Compiles diverse news perspectives
+Highlights global public opinion
+Shows how a single topic is reported differently in different cultures
 
-\- \*\*Compiles diverse news perspectives\*\*
-
-\- Highlights \*\*global public opinion\*\*
-
-\- Shows how a single topic is reported differently in different cultures
-
-
-
----
-
-
-
-\## 💡 Our Idea
-
-
+💡 Our Idea
 
 Create a platform that:
 
-\- Shows \*\*news headlines\*\* on the same topic from multiple countries
+Shows news headlines on the same topic from multiple countries
 
-\- Displays \*\*public opinion and sentiment\*\* from each region
+Displays public opinion and sentiment from each region
 
-\- Offers a “\*\*Rewrite in Neutral Tone\*\*” option to eliminate bias
+Offers a Rewrite in Neutral Tone option to eliminate bias
 
-\- Allows users to \*\*submit their own voice\*\* and perspective
+Allows users to submit their own voice and perspective
 
-\- Brings this to life with an immersive UI and visuals
-
-
-
----
+Brings this to life with an immersive UI and visuals
 
 
+🛠️ Tech Stack
 
-\## 🛠️ Tech Stack
+HTML, CSS, JavaScript\*\*
+Vanilla JS (no frameworks)
+Fully responsive UI
 
-
-
-\- \*\*HTML, CSS, JavaScript\*\*
-
-\- Vanilla JS (no frameworks)
-
-\- Fully responsive UI
-
-\- Cursor animation \& hover effects
-
-\- Background image with blur + overlay
-
-
-
----
-
-
-
-\## 🔗 APIs (planned for full version)
-
-
-
+🔗 APIs (planned for full version)
 Prototype uses mock data, but designed to integrate with:
 
 
@@ -93,14 +48,7 @@ Prototype uses mock data, but designed to integrate with:
 | OpenCage / IP Geolocation | Detect user's location |
 
 
-
----
-
-
-
-\## ✨ Key Features
-
-
+✨ Key Features
 
 | Feature                               | Description                                                               |
 
@@ -122,17 +70,7 @@ Prototype uses mock data, but designed to integrate with:
 
 
 
----
 
-
-
-\## 🚀 How to Run Locally
-
-
-
-```bash
-
-git clone https://github.com/YOUR-USERNAME/news-perspective-app.git
 
 cd news-perspective-app
 
