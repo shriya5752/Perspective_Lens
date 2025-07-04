@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perspective Lens - The Bias Breaker App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    
+    <div class="container">
+        <div class="header">
+            <h1>🔍 Perspective Lens</h1>
+            <p>The Bias Breaker App - See how the world views the same story</p>
+        </div>
+
+        <div class="topic-input-container">
+            <h3>🎯 Choose Your Topic</h3>
+            <div class="topic-input-form">
+                <input type="text" id="topicInput" class="topic-input" placeholder="Enter any topic (e.g., Climate Change, Cryptocurrency, Space Exploration)" value="AI Replacing Jobs">
+                <button class="update-topic-btn clickable" onclick="updateTopic()">Update Topic</button>
+            </div>
+        </div>
+
+        <div class="topic-display" id="topicDisplay">
+            <h2 id="currentTopic">📰 Current Topic: "AI Replacing Jobs"</h2>
+            <p id="topicDescription">Exploring global perspectives on artificial intelligence's impact on employment</p>
+        </div>
+
+        <div class="section">
+            <h2>📊 News Comparison</h2>
+            <div class="news-grid" id="newsGrid">
+                <!-- News cards will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🌍 Global Voices</h2>
+            <div class="global-voices" id="globalVoices">
+                <!-- Country cards will be populated by JavaScript -->
+            </div>
+            
+            <div class="submit-form">
+                <h3>📝 Submit Your Take</h3>
+                <form id="submitForm">
+                    <div class="form-group">
+                        <input type="text" id="countryInput" placeholder="Your Country" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="opinionInput" placeholder="Share your perspective on the current topic..." required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <select id="sentimentInput" required>
+                            <option value="">Select your sentiment</option>
+                            <option value="😊 Hopeful">😊 Hopeful</option>
+                            <option value="😰 Fearful">😰 Fearful</option>
+                            <option value="😤 Angry">😤 Angry</option>
+                            <option value="😐 Neutral">😐 Neutral</option>
+                            <option value="🤔 Curious">🤔 Curious</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="submit-btn clickable">Submit Your Voice</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
