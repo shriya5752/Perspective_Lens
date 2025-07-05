@@ -48,6 +48,8 @@ Although the prototype uses mock data, the app is designed to work with these AP
 | `GNews API`             | Provide regional news coverage       |
 | `Sentim API`            | Analyze tone/sentiment of headlines  |
 | `OpenCage Geolocation`  | Detect user's country or location    |
+| `speechSynthesis`       | Built-in browser voice engine |
+| `window.navigator.language` | Language detection for future use |
 
 ---
 
@@ -61,9 +63,19 @@ Although the prototype uses mock data, the app is designed to work with these AP
 | 📝 User submissions            | Submit your own thoughts & see them displayed live                          |
 | 🖱️ Custom animated cursor     | Circle-tracking cursor with hover effects for clean UX                      |
 | 🧩 Dynamic topic input         | Type your own topic (e.g., AI, climate) and regenerate content              |
-| 🎨 Immersive design            | Background image, hover glow, smooth layout                                 |
+| 🎨 Immersive design            | Background image, hover glow, smooth layout 
 
+## ✨ Additional Features
+| Feature                        | Description                                                                 |  Difficulty
+|--------------------------------|-----------------------------------------------------------------------------|-----------------------------------
+| 🌐 Multi-country headline comparison | Shows 5–8 country-specific headlines on a topic | Easy |
+| 🗣️ Text-to-speech (TTS) | Listen to headlines via Web Speech API | Medium |
 ---
+
+Screenshots
+![image](https://github.com/user-attachments/assets/af179309-f26b-4d7a-b551-259ab501da98)
+
+
 
 ## 🚀 How to Run Locally
 
