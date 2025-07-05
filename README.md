@@ -68,5 +68,6 @@ Although the prototype uses mock data, the app is designed to work with these AP
 ## 🚀 How to Run Locally
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/news-perspective-app.git
-cd news-perspective-app
+git clone https://github.com/shriya5752/Perspective_Lens.git
+cd Perspective_Lens
+
