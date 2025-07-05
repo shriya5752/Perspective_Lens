@@ -198,13 +198,16 @@ function rewriteNeutral(button) {
         "Report Examines AI Technology's Role in Workforce Changes",
         "Survey Documents AI Adoption Effects on Employment"
     ];
+
     const randomRewrite = neutralRewrites[Math.floor(Math.random() * neutralRewrites.length)];
-    const titleElement = button.previousElementSibling;
+
+    const titleElement = button.previousElementSibling; // ❌ this might be wrong
     titleElement.textContent = randomRewrite;
     button.textContent = "✅ Neutralized";
     button.style.background = "linear-gradient(135deg, #4CAF50, #45a049)";
     button.disabled = true;
 }
+
 
 // Handle topic change
 function updateTopic() {
