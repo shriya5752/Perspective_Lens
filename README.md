@@ -1,142 +1,73 @@
-# ?? Global News Perspective App
+<h1 align="center">🌐 Perspective_Lens</h1>
 
-\# 🌍 Global News Perspective App
-
-
-
-An interactive web app that lets users explore how the \*\*same news topic is perceived differently around the world\*\*. Designed to encourage critical thinking, media literacy, and a broader understanding of global narratives.
-
-
+<p align="center">
+  <em>An interactive web app that lets users explore how the <strong>same news topic is perceived differently around the world</strong>.</em><br/>
+  Designed to encourage critical thinking, media literacy, and a broader understanding of global narratives.
+</p>
 
 ---
 
-
-
-\## 📌 Problem Statement
-
-
+## 📌 Problem Statement
 
 People often consume news from a single source or region, leading to biased or narrow viewpoints. There's a need for a tool that:
 
-\- \*\*Compiles diverse news perspectives\*\*
-
-\- Highlights \*\*global public opinion\*\*
-
-\- Shows how a single topic is reported differently in different cultures
-
-
+- 📥 Compiles diverse news perspectives  
+- 🌍 Highlights global public opinion  
+- 📰 Shows how a single topic is reported differently in different cultures  
 
 ---
 
+## 💡 Our Idea
 
+Build a platform that:
 
-\## 💡 Our Idea
-
-
-
-Create a platform that:
-
-\- Shows \*\*news headlines\*\* on the same topic from multiple countries
-
-\- Displays \*\*public opinion and sentiment\*\* from each region
-
-\- Offers a “\*\*Rewrite in Neutral Tone\*\*” option to eliminate bias
-
-\- Allows users to \*\*submit their own voice\*\* and perspective
-
-\- Brings this to life with an immersive UI and visuals
-
-
+- Shows **news headlines** on the same topic from multiple countries  
+- Displays **public opinion and sentiment** from each region  
+- Offers a "**Rewrite in Neutral Tone**" option to eliminate bias  
+- Allows users to **submit their own voice and perspective**  
+- Brings everything to life with an **immersive UI and animations**  
 
 ---
 
+## 🛠️ Tech Stack
 
-
-\## 🛠️ Tech Stack
-
-
-
-\- \*\*HTML, CSS, JavaScript\*\*
-
-\- Vanilla JS (no frameworks)
-
-\- Fully responsive UI
-
-\- Cursor animation \& hover effects
-
-\- Background image with blur + overlay
-
-
+- **HTML, CSS, JavaScript**
+- Vanilla JS (no frameworks)
+- Fully responsive design
+- Modern hover effects & custom cursor
 
 ---
 
+## 🔗 APIs (Planned for Full Version)
 
+Although the prototype uses mock data, the app is designed to work with these APIs:
 
-\## 🔗 APIs (planned for full version)
-
-
-
-Prototype uses mock data, but designed to integrate with:
-
-
-
-| API           | Usage                              |
-
-|---------------|------------------------------------|
-
-| NewsAPI.org   | Fetch global headlines             |
-
-| GNews API     | Regional coverage                  |
-
-| Sentim API    | Sentiment analysis for headlines   |
-
-| OpenCage / IP Geolocation | Detect user's location |
-
-
+| API                     | Usage                                |
+|-------------------------|--------------------------------------|
+| `NewsAPI.org`           | Fetch global headlines               |
+| `GNews API`             | Provide regional news coverage       |
+| `Sentim API`            | Analyze tone/sentiment of headlines  |
+| `OpenCage Geolocation`  | Detect user's country or location    |
 
 ---
 
+## ✨ Key Features
 
-
-\## ✨ Key Features
-
-
-
-| Feature                               | Description                                                               |
-
-|--------------------------------------|---------------------------------------------------------------------------|
-
-| 🌐 Country-specific headlines         | Headlines shown from 5–7 global news sources                              |
-
-| 🗣️ Global public opinion              | Real-time sentiments from different countries (mocked for now)            |
-
-| 🔄 Rewrite in Neutral Tone           | Transforms biased headlines into a neutral version                        |
-
-| 📝 User submissions                   | Users can add their own opinion to the global board                       |
-
-| 🖱️ Custom animated cursor            | Modern, polished interaction                                              |
-
-| 🧩 Dynamic topic selection            | Type any topic (AI, climate, crypto, etc.) to regenerate the page         |
-
-| 🎨 Responsive, aesthetic design       | Background image, glow hover, mobile friendly                             |
-
-
+| Feature                        | Description                                                                 |
+|--------------------------------|-----------------------------------------------------------------------------|
+| 🌐 Country-specific headlines  | View headlines from 5–7 different countries                                 |
+| 🗣️ Global public opinion       | Visualized opinions & sentiments from users around the world                |
+| 🔄 Rewrite in Neutral Tone     | Converts biased headlines to a neutral version                              |
+| 📝 User submissions            | Submit your own thoughts & see them displayed live                          |
+| 🖱️ Custom animated cursor     | Circle-tracking cursor with hover effects for clean UX                      |
+| 🧩 Dynamic topic input         | Type your own topic (e.g., AI, climate) and regenerate content              |
+| 🎨 Immersive design            | Background image, hover glow, smooth layout                                 |
 
 ---
 
-
-
-\## 🚀 How to Run Locally
-
-
+## 🚀 How to Run Locally
 
 ```bash
-
-git clone https://github.com/YOUR-USERNAME/news-perspective-app.git
-
-cd news-perspective-app
-
-open index.html (or just double-click it)
-
-
+git clone https://github.com/shriya5752/Perspective_Lens.git
+cd Perspective_Lens
 
